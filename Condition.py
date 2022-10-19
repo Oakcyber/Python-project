@@ -5,7 +5,7 @@ else:
     print("Get out!")
 
 Age = (input("What is your age?"))
-if Age == "30":
+if Age <= "30":
     print("Allowed")
 else:
     print("You are not allowed")
